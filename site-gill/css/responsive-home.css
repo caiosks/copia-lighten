@@ -1,0 +1,280 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Trans gaph
+Version:        1.0
+Author:         Jangga | soluções web
+URL:            http://Jangga.com.br
+-------------------------------------------------------------------*/
+
+/* medias screens da pagina home*/
+/*medias screens da lading pag*/
+@media screen and (max-width: 1240px){
+    header .logo{
+        width: 100%;
+        text-align: center;
+    }
+    header .menu{
+        margin-top: -20px;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .container-banner{
+    padding: 10px 2%;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    }
+    .container-liste{
+    margin-top: -60px;
+    padding: 30px;
+    float: left;
+    width: 40%;
+    height: auto;
+    max-width: 500px;
+    display: inline-block;
+    }
+    header .logo img{
+        margin: 0 auto;
+    }
+    .form{
+    max-width: 300px;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    float: right;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container-liste{
+        width: 100%;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .container-liste p span{
+        margin: 0 auto;
+        float: none;
+        padding: 0 30px 30px 30px;
+    }
+    .form{
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    float: none;
+    }
+}
+
+@media screen and (max-width: 650px){
+    header .logo{
+        width: 100%;
+        text-align: center;
+    }
+    header .logo img{
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    header{
+        height: 80px;
+    }
+    .form{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .menu-sup{
+        display: none;
+    }
+}
+/*fim da medias screen da lading page*/
+
+/*inicio da medias screens da section*/
+@media screen and (max-width: 900px){
+    section .mapa{
+        width: 100%;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
+    section .infor{
+        width: 100%;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
+    section{
+    padding: 30px 2%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    }
+    section .infor p, h3{
+        color: white;
+    }
+}
+/*fim das medias section*/
+
+/*medias da section-2*/
+@media screen and (max-width: 1130px){
+    .section-2{
+        padding: 30px 2%;
+        width: 100%;
+        height: auto;
+        
+    }
+    .section-2 h2{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+    }
+    .section-2 .servicos{
+        width: 50%;
+        display: inline-block;
+        float: none; 
+        margin-top: 15px;
+        height: auto;
+    }
+    .section-2 .servicos img{
+        width: 250px;
+    }
+    .section-2 .servicos p{
+        height: 111px;
+    }
+    .feedback{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .section-2 .servicos{
+        width: 100%;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
+    .section-2 .servicos span{
+        width: 100%;
+        display: inline-block;
+        margin: 20px auto;
+    }
+    .section-2 .servicos p{
+        width: 100%;
+        display: inline-block;
+        margin: 20px auto;
+    }
+    .section-2 .servicos img{
+        width: 100%;
+    }
+}
+/*fim das medias section-2*/
+
+/*inicio das medias screen do bloco artigos*/
+
+@media screen and (max-width: 1000px){
+    .artigos h2{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+    }
+    .artigos{
+        padding: 30px 2%;
+        width: 100%;
+        height: auto;
+    }
+    .artigos .ex-artigos{
+        height: auto;
+        width: 100%;
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
+/*fim das medias artigo*/
+
+/*medias do bloco msg e footer*/
+@media screen and (max-width: 1200px){
+    .msg{
+    padding: 30px 2% 0 2%;
+    width: 100%;
+    height: auto;
+    }
+    .msg .input{
+        width: 100%;
+        display: inline-block;
+        float: none;
+        height: auto;
+    }
+    .msg .cabecalho-painel{
+        float: none;
+        display: inline-block;
+        width: 80%;
+        margin-bottom: -5px;
+    }
+    footer{
+        padding: 0 2%;
+        width: 100%;
+        height: auto;
+        }
+        footer .footer-painel{
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        footer .creditos{
+            width: 50%;
+            float: none;
+            margin: 0 auto;
+        }
+}
+@media screen and (max-width: 580px){
+    .msg{
+    padding: 30px 2% 0 2%;
+    width: 100%;
+    height: auto;
+    }
+    .msg .cabecalho-painel{
+        width: 100%;
+    }
+    footer .footer-painel{
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 576px){
+    .msg{
+        height: auto;
+    }
+}
+@media screen and (max-width: 420px){
+    .msg{
+        padding: 30px 2% 0 2%;
+    width: 100%;
+    height: auto;
+    }
+    .msg .cabecalho-painel{
+        height: auto;
+    }
+    .msg .cabecalho-painel p{
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
+    .msg .cabecalho-painel ul{
+        width: 100%;
+        float: none;display: inline-block;
+    }
+}
+/*fim das medias do bloco msg*/
+/* fim das medias screens da pagina home */
